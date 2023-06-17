@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Unit 14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="App">
+        <header class="header">
+          <div class="form-block">
+            <button class="prew-btn" type="button">&larr;</button>
+            <form class="form" action=""></form>
+            <button class="next-btn" type="button">&rarr;</button>
+          </div>
+
+          <label class="degree">
+            <div class="degree-icon">&deg;<span class="degree-CF">C</span></div>
+            <input class="checkbox" type="checkbox" />
+          </label>
+        </header>
+        <main class="main">
+          <section class="main-description">
+            <div class="city-name">
+              <h1>
+                <sup><span></span></sup>
+              </h1>
+            </div>
+
+            <div class="temperature-block">
+              <div class="temperature-main">
+                <div class="wind">
+                  <div class="wind-block">
+                    <div class="north">N</div>
+                    <h4 class="wind-speed"></h4>
+                  </div>
+                  <div class="wind-deg"></div>
+                </div>
+                <div class="temperature">
+                  <span></span>
+                </div>
+                <div class="weather-box">
+                  <div class="weather-icon"></div>
+                  <div class="weather-icon--description"></div>
+                </div>
+              </div>
+              <div class="sensation-temperature">
+                Відчувається як: <span></span>
+              </div>
+            </div>
+          </section>
+          <section class="auxiliary">
+            <div class="weather-des">
+              <div class="pressure">
+                <span></span>
+                <h4>Тиск</h4>
+              </div>
+              <div class="humidity">
+                <span></span>
+                <h4>Вологість</h4>
+              </div>
+              <div class="wind-gust">
+                <span></span>
+                <h4>Пориви вітру</h4>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+          <p>© 2023 openweathermap</p>
+        </footer>
+      </div>
+    </div>
+    <script src="js/unit_14.js"></script>
+  </body>
+</html>
