@@ -398,7 +398,7 @@ button {
 	.wind {
 		position: absolute;
 		bottom: -30px;
-		right: 0;
+		right: 10px;
 	}
 
 	.sensation-temperature {
