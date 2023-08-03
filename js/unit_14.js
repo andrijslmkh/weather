@@ -93,7 +93,6 @@ function mToKm(speed) {
 
 // getWeather - gets the weather forecast (data)
 function getWeather(id) {
-	27
 	//  API
 	fetch(`${param.url}weather?id=${id}&APPID=${param.appid}`)
 		.then((weather) => {
